@@ -44,5 +44,5 @@ PLUGINS = ['pelican-ipynb.markup'] #pelican-ipynb 为添加的submodule文件夹
 IGNORE_FILES = [".ipynb_checkpoints"] # 如果有ipynb_checkpoints文件添加这一行以忽略
 
 ##---------------------------------add theme----------------------------------##
-THEME = "blue-penguin"
+THEME = "themes/blue-penguin"
 
