@@ -1,6 +1,6 @@
-title: First Blog
+title: My frist blog
 date: 2020-4-17
-author: Your Name Here
+author: imeixi
 
 # I am On My Way To Internet Fame and Fortune!
 
@@ -9,4 +9,3 @@ should convey my sense of excitement and eagerness to engage with you,
 the reader!
 
 the biggest dream is the world peace. I hope I can rich for travaling the world with my familay.
-
