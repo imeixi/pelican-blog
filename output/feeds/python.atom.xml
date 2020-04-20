@@ -1,43 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>THE GROWTH PATH OF DATA SCIENTISTS | articles tagged "blog"</title>
-    <link rel="shortcut icon" type="image/png" href="//imeixi.github.io/blog/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="//imeixi.github.io/blog/favicon.ico">
-    <link href="//imeixi.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="THE GROWTH PATH OF DATA SCIENTISTS Full Atom Feed" />
-    <link rel="stylesheet" href="//imeixi.github.io/blog/theme/css/main.css" type="text/css" />
-    <link rel="stylesheet" href="//imeixi.github.io/blog/theme/css/pygments.css" type="text/css" />
-    <meta name="generator" content="Pelican" />
-    <meta name="description" content="" />
-    <meta name="author" content="imeixi" />
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li class="ephemeral selected"><a href="//imeixi.github.io/blog/tag/blog.html">blog</a></li>
-                <li><a href="//imeixi.github.io/blog/">Home</a></li>
-                <li><a href="//imeixi.github.io/blog/pages/about.html">About</a></li>
-            </ul>
-        </nav>
-        <div class="header_box">
-            <h1><a href="//imeixi.github.io/blog/">THE GROWTH PATH OF DATA SCIENTISTS</a></h1>
-        </div>
-    </header>
-    <div id="wrapper">
-        <div id="content">            <h4 class="date"> 4 19, 2020</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="//imeixi.github.io/blog/static-blog.html" rel="bookmark" title="Permanent Link to &quot;test notebook&quot;">test notebook</a>
-                </h2>
-
-                
-                
-
-                <style type="text/css">/*!
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>THE GROWTH PATH OF DATA SCIENTISTS - python</title><link href="//imeixi.github.io/blog/" rel="alternate"></link><link href="//imeixi.github.io/blog/feeds/python.atom.xml" rel="self"></link><id>//imeixi.github.io/blog/</id><updated>2020-04-19T13:40:00+08:00</updated><entry><title>test notebook</title><link href="//imeixi.github.io/blog/static-blog.html" rel="alternate"></link><published>2020-04-19T13:40:00+08:00</published><updated>2020-04-19T13:40:00+08:00</updated><author><name>imeixi</name></author><id>tag:imeixi.github.io,2020-04-19:/blog/static-blog.html</id><summary type="html">&lt;p&gt;test notebook&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -264,7 +226,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell > div.prompt {
+  div.unrecognized_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -317,19 +279,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area > div.highlight {
+div.input_area &gt; div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area > div.highlight > pre {
+div.input_area &gt; div.highlight &gt; pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the <head> if it is detected that the user has a
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -375,7 +337,7 @@ div.input_area > div.highlight > pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
 Adapted from GitHub theme
 
 */
@@ -837,7 +799,7 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell > div.prompt {
+  div.text_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -902,8 +864,8 @@ h6:hover .anchor-link {
   font-size: 100%;
   font-style: italic;
 }
-</style>
-<style type="text/css">.highlight .hll { background-color: #ffffcc }
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -971,8 +933,8 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<style type="text/css">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -1008,24 +970,24 @@ h6:hover .anchor-link {
 .ansi-white-intense-bg { background-color: #A1A6B2; }
 
 .ansi-bold { font-weight: bold; }
-</style>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span> <span class="n">pelican</span>
-</pre></div>
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;test&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
-</div>
-</div>
-</div>
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
-</div>
+&lt;/div&gt;
  
 
 
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -1052,31 +1014,5 @@ h6:hover .anchor-link {
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-</script>
-
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="//imeixi.github.io/blog/static-blog.html">posted at 13:40</a>
-                    &nbsp;&middot;&nbsp;<a href="//imeixi.github.io/blog/category/python.html" rel="tag">python</a>
-                    &nbsp;&middot;
-                    &nbsp;<a href="//imeixi.github.io/blog/tag/blog.html" class="tags selected">blog</a>
-                    &nbsp;<a href="//imeixi.github.io/blog/tag/pelican.html" class="tags">pelican</a>
-                    &nbsp;<a href="//imeixi.github.io/blog/tag/ipynb.html" class="tags">ipynb</a>
-                </div>
-            </article>
-
-            <div class="clear"></div>
-            <footer>
-                <p>
-                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
-                &middot;
-                Powered by <a href="http://getpelican.com">Pelican</a>
-                &middot;
-                <a href="//imeixi.github.io/blog/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
-            </footer>
-        </div>
-        <div class="clear"></div>
-    </div>
-</body>
-</html>
+&lt;/script&gt;
+</content><category term="python"></category><category term="blog"></category><category term="pelican"></category><category term="ipynb"></category></entry></feed>
