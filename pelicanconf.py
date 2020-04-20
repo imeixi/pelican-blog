@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'imeixi'
-SITENAME = 'IMEIXI BLOG'
+SITENAME = 'IMEIXI\'s BLOG'
 SITEURL = '//imeixi.github.io/blog'
 RELATIVE_URLS = False
 
