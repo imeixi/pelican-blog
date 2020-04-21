@@ -36,14 +36,16 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-##----------------------------------------------------------------------------##
 ##---------------------------------add notebook plugins-----------------------##
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = ['./plugins']
-PLUGINS = ['pelican-ipynb.markup'] #pelican-ipynb 为添加的submodule文件夹名
+PLUGINS = ['pelican-ipynb.markup','neighbors.neighbors'] #pelican-ipynb 为添加的submodule文件夹名
 IGNORE_FILES = [".ipynb_checkpoints"] # 如果有ipynb_checkpoints文件添加这一行以忽略
 
 ##---------------------------------add theme----------------------------------##
-THEME = "themes/blue-penguin"
+# THEME = "themes/blue-penguin"
+THEME = 'themes/pelican-striped-html5up'
 
+STATIC_PATHS = ['images']
+# PLUGINS = ['neighbors']
