@@ -2,7 +2,7 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
         {% block head %}
-        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <title>{% block title %}{{ TITLENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
@@ -36,9 +36,14 @@
 </head>
 
 <body>
+
+<!-- /#banner -->
+    <!--  
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </header><!-- /#banner -->
+                <h1><a href="{{ SITEURL }}/">{{ TITLENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+        </header>
+    -->
+
 <!-- Sidebar -->
             <div id="sidebar">
 
@@ -48,7 +53,7 @@
                     <section class="box text-style1">
                         <div class="inner">
                             <p>
-                                <strong>Ut scelerisque nec sapien ut sollicitudin:</strong><br />{{SITESUBTITLE}}
+                                <a href="{{ SITEURL }}/pages/about.html"><strong>About Me</strong></a><br />{{SITESUBTITLE}}
                             </p>
                         </div>
                     </section>
@@ -56,19 +61,20 @@
                     <nav id="nav">
                         <ul>
                             
-                            <li><a href="#">Nam euismod dui</a></li>
-                            <li><a href="#">Integer eget eros</a></li>
-                            <li><a href="#">Proin vehicula tortor</a></li>
-                            <li><a href="#">Vestibulum consectetur tellus</a></li>
+                            <li><a href="#">Archives</a></li>
+                            <li><a href="#">Lastest Post</a></li>
+                            <!-- <li><a href="#">About Me</a></li> -->
+                            <!-- <li><a href="#">Contact Me</a></li> -->
+                            <!-- <li><a href="#">Vestibulum consectetur tellus</a></li> -->
                         </ul>
                     </nav>
 
                 <!-- Search -->
-                    <!-- <section class="box search">
+                    <section class="box search">
                         <form method="post" action="#">
                             <input type="text" class="text" name="search" placeholder="Search" />
                         </form>
-                    </section> -->
+                    </section>
 
                 
 
@@ -78,10 +84,11 @@
                             <h2>Contact Me</h2>
                         </header>
                         <ul>
-                            <li><a class="icon fa-envelope" href="#"> eMail</a></li>
+                            <li><a class="icon fa-envelope" href="#"> YouTuBe</a></li>
+                            <li><a class="icon fa-envelope" href="mailto:imeixi@163.com"> E-mail</a></li>
                             <li><a class="icon fa-twitter" href="#"> Twitter</a></li>
                             <li><a class="icon fa-facebook" href="#"> Facebook</a></li>
-                            <li><a class="icon fa-github" href="#"> Github</a></li>
+                            <li><a class="icon fa-github" href="https://github.com/imeixi/blog"> Github</a></li>
                             
                         </ul>
                     </section>
