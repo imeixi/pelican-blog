@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-          <title>THE GROWTH PATH OF DATA SCIENTISTS</title>
+          <title>IMEIXI's BLOG</title>
         <meta charset="utf-8" />
         <link href="//imeixi.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="THE GROWTH PATH OF DATA SCIENTISTS Full Atom Feed" />
 
@@ -14,9 +14,14 @@
 </head>
 
 <body>
+
+<!-- /#banner -->
+    <!--  
         <header id="banner" class="body">
-                <h1><a href="//imeixi.github.io/blog/">THE GROWTH PATH OF DATA SCIENTISTS <strong></strong></a></h1>
-        </header><!-- /#banner -->
+                <h1><a href="//imeixi.github.io/blog/">IMEIXI's BLOG <strong></strong></a></h1>
+        </header>
+    -->
+
 <!-- Sidebar -->
             <div id="sidebar">
 
@@ -26,7 +31,7 @@
                     <section class="box text-style1">
                         <div class="inner">
                             <p>
-                                <strong>Ut scelerisque nec sapien ut sollicitudin:</strong><br />
+                                <a href="//imeixi.github.io/blog/pages/about.html"><strong>About Me</strong></a><br />
                             </p>
                         </div>
                     </section>
@@ -34,19 +39,78 @@
                     <nav id="nav">
                         <ul>
                             
-                            <li><a href="#">Nam euismod dui</a></li>
-                            <li><a href="#">Integer eget eros</a></li>
-                            <li><a href="#">Proin vehicula tortor</a></li>
-                            <li><a href="#">Vestibulum consectetur tellus</a></li>
+                            <li><a href="//imeixi.github.io/blog/archives.html">Archives</a></li>
+                            <!-- <li><a href="#">About Me</a></li> -->
+                            <li><a href="#">Contact Me</a></li>
+                            <!-- <li><a href="#">Vestibulum consectetur tellus</a></li> -->
                         </ul>
+
+                        <ul>
+                            <!-- 遍历配置文件中的MENU -->
+
+                            <!-- 遍历page放在MENU中 -->
+                              <!-- <li><a href="//imeixi.github.io/blog/pages/pages.html">About Me</a></li> -->
+                              <!-- <li class="divider-vertical"></li> -->
+
+                            <section class="box text-style1">
+                                <div class="inner">
+                                    <p>
+                                        <a href="#"><strong>categories</strong></a>
+                                    </p>
+                                </div>
+                            </section>
+     
+
+                                  <li>
+                                    <a href="//imeixi.github.io/blog/category/misc.html">
+                                        <i class="icon-folder-open icon-large"></i>misc
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="//imeixi.github.io/blog/category/python.html">
+                                        <i class="icon-folder-open icon-large"></i>python
+                                    </a>
+                                  </li>
+                        </ul>   
+                        <ul>
+                            <section class="box text-style1">
+                                <div class="inner">
+                                    <p>
+                                        <a href="#"><strong>tags</strong></a>
+                                    </p>
+                                </div>
+                            </section>
+
+    
+
+                                <li><a href="//imeixi.github.io/blog/tag/blog.html">blog(1)</a></li>
+                                <li><a href="//imeixi.github.io/blog/tag/ipynb.html">ipynb(1)</a></li>
+                                <li><a href="//imeixi.github.io/blog/tag/pelican.html">pelican(5)</a></li>
+                                <li><a href="//imeixi.github.io/blog/tag/publishing.html">publishing(4)</a></li>
+                        </ul> 
                     </nav>
 
                 <!-- Search -->
-                    <!-- <section class="box search">
+                    <section class="box search">
+                        <!--      
                         <form method="post" action="#">
                             <input type="text" class="text" name="search" placeholder="Search" />
-                        </form>
-                    </section> -->
+                        </form> -->
+<li class="nav-header"><h4><i class="icon-search"></i>Google Search</h4></li>
+<div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+  google.load('search', '1');
+  google.setOnLoadCallback(function() {
+    var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
+      'True', customSearchOptions);
+    customSearchControl.setResultSetSize(google.search.Search.SMALL_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
+
+                    </section>
 
                 
 
@@ -56,10 +120,11 @@
                             <h2>Contact Me</h2>
                         </header>
                         <ul>
-                            <li><a class="icon fa-envelope" href="#"> eMail</a></li>
+                            <li><a class="icon fa-youtube" href="#"> YouTuBe</a></li>
+                            <li><a class="icon fa-envelope" href="mailto:imeixi@163.com"> E-mail</a></li>
                             <li><a class="icon fa-twitter" href="#"> Twitter</a></li>
                             <li><a class="icon fa-facebook" href="#"> Facebook</a></li>
-                            <li><a class="icon fa-github" href="#"> Github</a></li>
+                            <li><a class="icon fa-github" href="https://github.com/imeixi/blog"> Github</a></li>
                             
                         </ul>
                     </section>
@@ -101,6 +166,7 @@
               <a class="button previous" href="//imeixi.github.io/blog/static-blog.html">
              test notebook
          </a>
+              <a href="//imeixi.github.io/blog/quick-start.html" class="button next">pelican quick start</a>
             </div>
  
 </div>

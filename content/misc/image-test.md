@@ -8,4 +8,4 @@ Summary: pelican
 
 This is the content of my super blog post.
 
-![Alt Text]({filename}/images/logo.png)
+![Alt Text]({staic}/images/logo.png)
