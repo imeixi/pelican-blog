@@ -1,5 +1,11 @@
-title: About
-date: 2020-4-20
+Title: About Me
+Date: 2020-04-23 00:29:30
+Modified: 2020-04-23 00:29:35
+Category: Python
+Tags: pelican, publishing
+Slug: pages
+Author: imeixi
+Summary: a python programer
 
 ![So Schmexy][my_sweet_photo]
 

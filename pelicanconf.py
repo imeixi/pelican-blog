@@ -50,3 +50,5 @@ THEME = "themes/pelican-striped-html5up"
 STATIC_PATHS = ['images']
 # PLUGINS = ['neighbors']
 
+##---------------------------------third party----------------------------------##
+GOOGLE_CUSTOM_SEARCH_SIDEBAR = True

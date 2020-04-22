@@ -61,19 +61,70 @@
                     <nav id="nav">
                         <ul>
                             
-                            <li><a href="#">Archives</a></li>
-                            <li><a href="#">Lastest Post</a></li>
+                            <li><a href="{{ SITEURL }}/archives.html">Archives</a></li>
                             <!-- <li><a href="#">About Me</a></li> -->
-                            <!-- <li><a href="#">Contact Me</a></li> -->
+                            <li><a href="#">Contact Me</a></li>
                             <!-- <li><a href="#">Vestibulum consectetur tellus</a></li> -->
                         </ul>
+
+                        <ul>
+                            <!-- 遍历配置文件中的MENU -->
+                              {% for title, link in MENUITEMS %}
+                                  <li><a href="{{ link }}">{{ title }}</a></li>
+                              {% endfor %}
+
+                            <!-- 遍历page放在MENU中 -->
+                              {% if DISPLAY_PAGES_ON_MENU %}
+                              {% for page in pages %}
+                              <!-- <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li> -->
+                              {% endfor %}
+                              <!-- <li class="divider-vertical"></li> -->
+                              {% endif %}
+
+                            <section class="box text-style1">
+                                <div class="inner">
+                                    <p>
+                                        <a href="#"><strong>categories</strong></a>
+                                    </p>
+                                </div>
+                            </section>
+     
+
+                              {% if DISPLAY_CATEGORIES_ON_MENU %}
+                              {% for cat, null in categories %}
+                                  <li>
+                                    <a href="{{ SITEURL }}/{{ cat.url }}">
+                                        <i class="icon-folder-open icon-large"></i>{{ cat }}
+                                    </a>
+                                  </li>
+                              {% endfor %}
+                              {% endif %}
+                        </ul>   
+                        <ul>
+                            <section class="box text-style1">
+                                <div class="inner">
+                                    <p>
+                                        <a href="#"><strong>tags</strong></a>
+                                    </p>
+                                </div>
+                            </section>
+
+    
+
+                            {% for tag, articles in tags|sort %}
+                                <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}({{ articles|count }})</a></li>
+                            {% endfor %}
+                        </ul> 
                     </nav>
 
                 <!-- Search -->
                     <section class="box search">
+                        <!--      
                         <form method="post" action="#">
                             <input type="text" class="text" name="search" placeholder="Search" />
-                        </form>
+                        </form> -->
+                        {% include 'google_search_sidebar.html' %}
+
                     </section>
 
                 
@@ -107,5 +158,8 @@
         {% block content %}
         {% endblock %}
 <!-- /#contentinfo -->
+    {% include 'analytics.html' %}
+    {% include 'piwik.html' %}
+    {% include 'disqus_script.html' %}
 </body>
 </html>
